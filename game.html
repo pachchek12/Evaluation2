@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Online Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+  <!--Player 01 -->
+  <div class="player-box wrapper clearfix" >
+    <div class="player-1-section active">
+      <div class="player-name" id="name-1">Player 1</div>
+      <div class="player-score-board" id="score-1">70</div>
+      <div class="player-current-score-board">
+      <div class="player-current-label">Current</div> 
+       <div class="player-current-score" id="current-1">10</div>
+      </div>
+    </div>
+    <!--End Player 1-->
+    
+    <!--plyer 02-->
+
+    <div class="player-2-section">
+      <div class="player-name2" id="name-2">Player 2</div>
+      <div class="player-score-board" id="score-2">60</div>
+      <div class="player-current-board">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-2">20</div>
+        </div>
+    </div>
+
+      <!--End Player 02-->
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <div class="newgame">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><title>ionicons-v5-a</title><path d="M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,224H272v64a16,16,0,0,1-32,0V272H176a16,16,0,0,1,0-32h64V176a16,16,0,0,1,32,0v64h64a16,16,0,0,1,0,32Z"/></svg>
+          <button class="restart">NEW GAME</button>
+        </div>
+
+        <!-- images  -->
+
+      <img src="dice1.png" alt="dice" class="dice">
+      
+
+      <!-- End images-->
+       
+       <div class="roll-dice">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><title>ionicons-v5-b</title><path d="M434.67,285.59v-29.8C434.67,157.06,354.43,77,255.47,77a179,179,0,0,0-140.14,67.36m-38.53,82v29.8C76.8,355,157,435,256,435a180.45,180.45,0,0,0,140-66.92" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="32 256 76 212 122 256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="480 256 436 300 390 256" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg>
+        <button>ROLL DICE</button>
+       </div>
+
+       <div class="hold">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><title>ionicons-v5-f</title><path d="M336,176h40a40,40,0,0,1,40,40V424a40,40,0,0,1-40,40H136a40,40,0,0,1-40-40V216a40,40,0,0,1,40-40h40" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><polyline points="176 272 256 352 336 272" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/><line x1="256" y1="48" x2="256" y2="336" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/></svg>
+         <button class="btn-hold">HOLD</button>
+       </div>
+       
+      </div>
+
+    
+      
+
+      <!-- End Buttons -->
+
+
+      <!-- inputs -->
+
+      <!-- End inputs -->
+  </div>
+
+
+    <!-- <script src="de.js"></script> -->
+    <script src="rungame.js"></script>
+</body>
+
+</html>

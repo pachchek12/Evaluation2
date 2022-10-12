@@ -1,0 +1,134 @@
+* body {
+	width:100%;
+	height: 50%;
+	background-color: beige;
+	margin: 10px;
+}
+
+.player-box{
+	padding: 20px;
+	//*border: solid 10px black;*//
+	align-content: center;
+	position: relative;
+	margin:30px;
+}
+
+
+.player-2-section{
+	float: right;
+	width:50%;
+	position: relative;
+	text-align:center;
+	
+	
+}
+
+.player-1-section{
+
+width: 50%;
+display: inline-block;
+position: relative;
+text-align: center;
+
+
+}
+
+.player-name {
+	padding: 50PX 0;
+	font-size: 2rem;
+}
+
+.score-board {
+	padding: 50px;
+}
+
+.current{
+	padding: 50px;
+}
+
+.player-name2 {
+	padding: 50PX 0;
+	font-size: 2rem;
+	
+}
+
+.score-board2 {
+	padding: 50px;
+}
+
+.current2{
+	padding: 50px;
+}
+
+
+.buttons {
+	padding: 20px;
+	position:absolute;
+	top: 20px;
+	display:inline ;
+	right: 40% ;
+	text-align: center;
+	
+}
+
+
+button {
+
+	display:block;
+	width: 200px;
+	border: none;
+	background: transparent;
+	color: maroon;
+}
+
+button:hover {
+  font-weight: 600;
+}
+button:hover i {
+  margin-right: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+.roll-dice {
+	margin-top: 150px;
+	position:sticky;
+	
+	
+}
+
+.hold{
+	margin-top: 40px;
+	position: sticky;
+	
+
+}
+
+
+
+img{
+
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	position:relative;
+	margin:35%;
+	margin-top:30px;
+	margin-right: 10%;
+
+
+}
+
+svg {
+color: white;
+}
+
+
+
+
+
+
+
