@@ -18,7 +18,7 @@ function init() {
   // Hiding the dice for new game
   document.querySelector('.dice').style.display = 'none';
 
-  //Cgange the text as New game 
+  //Change the text as New game 
 
   document.querySelector(".restart").textContent = "NEW GAME";
 
@@ -55,6 +55,7 @@ function changePlayer() {
   // switch to next player
   activePlayer === 1 ? (activePlayer = 2) : (activePlayer = 1);
   document.getElementById("current-" + activePlayer).textContent = current_score;
+  
 }
 
 
@@ -76,13 +77,13 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
       changePlayer();   
     }
   
-  if (totalscore1 >= 20) {
+  if (totalscore1 >= 100) {
     document.querySelector("#name-1").textContent = "Winner!";
     // message "start new game "
     document.querySelector(".restart").textContent = "Click to Restart the Game";
 
   }
-  else if(totalscore2 >= 20) {
+  else if(totalscore2 >= 100) {
     document.querySelector("#name-2").textContent = "Winner!";
     // message "start new game "
 
